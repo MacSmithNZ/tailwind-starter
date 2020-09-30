@@ -1,3 +1,3 @@
-module github.com/macsmithnz/tailwind-starter
+module github.com/MacSmithNZ/tailwind-starter
 
 go 1.14
