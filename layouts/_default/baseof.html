@@ -19,7 +19,7 @@
 
   <body>
     {{ if templates.Exists "partials/header.html" }}{{ partial "header.html" . }}{{ end }}
-    <main class="prose lg:prose-xl" id="content">
+    <main id="content">
       {{ block "main" . }}{{ end }}
     </main>
     {{ if templates.Exists "partials/footer.html" }}{{ partial "footer.html" . }}{{ end }}
