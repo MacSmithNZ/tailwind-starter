@@ -5,6 +5,14 @@ disableKinds = ["page", "section", "taxonomy", "term"]
     extended = false
     min = "0.75.0"
 
+  [[module.mounts]]
+    source = "node_modules/@fortawesome/fontawesome-pro/webfonts"
+    target = "static/webfonts"
+
+  [[module.mounts]]
+  source = "node_modules/@fortawesome/fontawesome-pro/css"
+  target = "assets/css/fontawesome"
+
 [build]
 # Used by PurgeCSS
 writeStats = true
