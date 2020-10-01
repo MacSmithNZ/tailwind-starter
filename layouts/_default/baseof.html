@@ -17,10 +17,12 @@
     {{ if templates.Exists "partials/head.html" }}{{ partial "head.html" . }}{{ end }}
   </head>
 
-  <body class="my-10">
-    <div class="container px-4 lg:mx-auto">
+  <body>
+    {{ if templates.Exists "partials/header.html" }}{{ partial "header.html" . }}{{ end }}
+    <main id="content">
       {{ block "main" . }}{{ end }}
-    </div>
+    </main>
+    {{ if templates.Exists "partials/footer.html" }}{{ partial "footer.html" . }}{{ end }}
   </body>
 
 </html>
