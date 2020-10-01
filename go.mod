@@ -1,3 +1,3 @@
 module github.com/MacSmithNZ/tailwind-starter
 
-go 1.14
+go 1.15
