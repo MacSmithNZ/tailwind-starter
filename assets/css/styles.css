@@ -1,5 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import "fontawesome/all.css";
+@import "node_modules/@fortawesome/fontawesome-pro/css/all.css";
 @import "components/all.css";

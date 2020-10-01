@@ -37,10 +37,6 @@ disableKinds = ["page", "section", "taxonomy", "term"]
     source = "node_modules/@fortawesome/fontawesome-pro/webfonts"
     target = "static/webfonts"
 
-  [[module.mounts]]
-  source = "node_modules/@fortawesome/fontawesome-pro/css"
-  target = "assets/css/fontawesome"
-
 [build]
 # Used by PurgeCSS
 writeStats = true
