@@ -10,7 +10,7 @@
     "postcss": "^8.0.9",
     "postcss-cli": "^8.0.0",
     "postcss-purgecss": "^2.0.3",
-    "tailwindcss": "^1.8.10"
+    "tailwindcss": "^2.0.1"
   },
   "name": "tailwind-starter",
   "version": "0.1.0"
