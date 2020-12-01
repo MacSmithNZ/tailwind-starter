@@ -4,11 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{ if templates.Exists "partials/title.html" }}
-    {{ partial "title.html" . }}
-    {{ else }}
-    <title>{{ .Title }}</title>
-    {{ end }}
+    {{ if templates.Exists "partials/title.html" }}{{ partial "title.html" . }}{{ else }}<title>{{ .Title }}</title>{{ end }}
     <meta name="description" content="{{.Description }}">
     <!-- styles -->
     {{ $options := dict "inlineImports" true }}
