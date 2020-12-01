@@ -3,7 +3,7 @@ disableKinds = ["page", "section", "taxonomy", "term"]
 [module]
   [module.hugoVersion]
     extended = false
-    min = "0.75.0"
+    min = "0.78.2"
 
 [build]
 # Used by PurgeCSS
