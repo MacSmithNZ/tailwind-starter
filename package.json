@@ -1,18 +1,29 @@
 {
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MacSmithNZ/tailwind-starter.git"
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@tailwindcss/typography": "project",
+      "autoprefixer": "project",
+      "postcss": "project",
+      "postcss-cli": "project",
+      "postcss-purgecss": "project",
+      "tailwindcss": "project"
+    }
   },
   "dependencies": {},
   "devDependencies": {
     "@tailwindcss/typography": "^0.3.0",
     "autoprefixer": "^10.0.4",
-    "postcss": "^8.3.6",
+    "postcss": "^8.1.10",
     "postcss-cli": "^8.0.0",
     "postcss-purgecss": "^2.0.3",
     "tailwindcss": "^2.2.6"
   },
+  "license": "MIT",
   "name": "tailwind-starter",
-  "version": "0.1.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MacSmithNZ/tailwind-starter.git"
+  },
+  "version": "2.0.0"
 }
