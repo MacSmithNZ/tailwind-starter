@@ -10,13 +10,12 @@
       "tailwindcss": "project"
     }
   },
-  "dependencies": {},
   "devDependencies": {
     "@tailwindcss/typography": "^0.3.0",
     "autoprefixer": "^10.0.4",
     "postcss": "^8.1.10",
     "postcss-cli": "^8.0.0",
-    "postcss-purgecss": "^2.0.3",
+    "postcss-purgecss": "^5.0.0",
     "tailwindcss": "^2.2.6"
   },
   "license": "MIT",
